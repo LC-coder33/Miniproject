@@ -116,6 +116,7 @@ public class MainMenu {
 		CO.addCar(cNum,fNum);
 		parking.delFloors(fNum);
 		clist.add(CO);
+		pay.pclist = clist;
 		}
 
 	}
@@ -192,6 +193,7 @@ public class MainMenu {
 	
 	public void listPay() {
 		pay.calculate();
+		pay.seeAll();
 	}
 	
 }
